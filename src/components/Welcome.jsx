@@ -3,7 +3,7 @@ import HeroBanner from "../img/herobanner.jpg";
 
 const Welcome = () => {
   return (
-    <section className="hero-section">
+    <section id="Welcome" className="hero-section">
       <div className="container">
         <div className="hero-image col-lg-12 d-flex justify-content-end">
           <img src={HeroBanner} />
