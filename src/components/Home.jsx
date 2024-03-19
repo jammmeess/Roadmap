@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Welcome from "./Welcome";
 import About from "./About";
 import Journey from "./Journey";
+import Accenture from "./Accenture";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
                 <Welcome/>
                 <About />
                 <Journey />
+                <Accenture />
             </main>
         </section>
     );
