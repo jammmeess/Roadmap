@@ -35,7 +35,10 @@ const Navbar = () => {
         <nav className="nav ps-2">
           <ul>
             <li>
-              <a href="#Welcome" className={activeLink === "Welcome" ? "active" : ""}>
+              <a
+                href="#Welcome"
+                className={activeLink === "Welcome" ? "active" : ""}
+              >
                 Welcome to my Roadmap
               </a>
             </li>
@@ -61,6 +64,14 @@ const Navbar = () => {
                 className={activeLink === "Accenture" ? "active" : ""}
               >
                 Accenture Philippines
+              </a>
+            </li>
+            <li>
+              <a
+                href="#Friends"
+                className={activeLink === "Friends" ? "active" : ""}
+              >
+                Friends We Meet Along The Way
               </a>
             </li>
             <li>
