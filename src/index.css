@@ -195,3 +195,22 @@ html {
 #accenture {
   color: #4e007f
 }
+
+/* Friends Section */
+
+.friends-section {
+  font-family: "Crete Round", serif; 
+  color: #000000;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px 0px 0px 0px;
+  padding: 50px 0px 0px 300px;
+}
+
+.friendsOne {
+  height: 80%;
+  width: 100%;
+  margin: 20px 0px 0px -40px;
+  border: solid 4px #4e007f;
+  border-radius: 25px 25px 25px 25px;
+}
