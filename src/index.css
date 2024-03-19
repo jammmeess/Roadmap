@@ -144,10 +144,11 @@ html {
   background-color: rgb(15, 15, 15);
   font-family: "Crete Round", serif; 
   color: #aa54df;
-  height: 122vh;
+  height: 140vh;
   width: 100vw;
   margin: 0px 0px 0px 0px;
   padding: 50px 0px 0px 300px;
+  border-radius: 500px 0px 500px 0px;
  }
 
  .journeyOne {
@@ -185,7 +186,7 @@ html {
   width: 100%;
   margin: 20px 0px 0px -40px;
   border: solid 4px #000000;;
-  border-radius: 25px 25px 25px 25px;
+  border-radius: 50px 50px 50px 50px;
 }
 
 .accenture-caption {
@@ -213,4 +214,70 @@ html {
   margin: 20px 0px 0px -40px;
   border: solid 4px #4e007f;
   border-radius: 25px 25px 25px 25px;
+}
+
+/* Second Home Section */
+
+ .secondhome-section {
+  background-color: rgb(15, 15, 15);
+  font-family: "Crete Round", serif; 
+  color: #aa54df;
+  height: 160vh;
+  width: 100vw;
+  margin: 0px 0px 0px 0px;
+  padding: 50px 0px 0px 300px;
+  border-radius: 500px 0px 500px 0px;
+
+ }
+
+ .family-three {
+  height: 80%;
+  width: 130%;
+  margin: 50px 0px 0px -40px;
+  border: solid 4px #4e007f;
+  border-radius: 25px 25px 25px 0px;
+}
+
+.familythree-caption {
+  color: white;
+  border-radius: 20px 20px 20px 20px;
+  margin: 50px 0px 0px 60px;
+  padding: 70px 0px 0px 20px;
+  line-height: 30px;
+  border-left: solid  #4e007f;
+}
+
+ .family-One {
+  height: 70%;
+  width: 100%;
+  margin: 40px 0px 0px 50px;
+  border: solid 4px #4e007f;
+  border-radius: 25px 25px 0px 25px;
+}
+
+.familyone-caption {
+  color: white;
+  border-radius: 20px 20px 20px 20px;
+  margin: 0px 0px 0px -40px;
+  padding: 90px 0px 0px 20px;
+  line-height: 30px;
+  border-right: solid  #4e007f;
+
+}
+
+ .family-two {
+  height: 90%;
+  width: 130%;
+  margin: 20px 0px 0px -40px;
+  border: solid 4px #4e007f;
+  border-radius: 25px 25px 25px 0px;
+}
+
+.familytwo-caption {
+  color: white;
+  border-radius: 20px 20px 20px 20px;
+  margin: 0px 0px 0px 60px;
+  padding:50px 0px 50px 20px;
+  line-height: 30px;
+  border-left: solid  #4e007f;
 }
