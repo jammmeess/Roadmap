@@ -1,15 +1,17 @@
 import React from "react";
 import MyTeamPhoto from "../img/roadmap/my-team.JPG";
 
+
+
 const MyTeam = () => {
   return (
-    <section className="myteam-section" id="MyTeam">
+    <section className="myteam-section mb-5" id="MyTeam">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <img src={MyTeamPhoto} className="myteam-photo" />
           </div>
-          <div className="col-lg-12">
+          <div className="col-lg-12 my-team-section">
             <h3 className="display-6">
               The <span id="accenture">Finance Business Management</span> Team
             </h3>
