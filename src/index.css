@@ -1,13 +1,114 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body,
+html {
+  font-family: "Arial";
+  font-size: 100%;
+  width: auto;
+  height: auto;
+  color: #ffffff;
+  background-color: white;
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Navbar */
+
+.sidebar {
+  position: fixed;
+  width: 20%;
+  height: 100vh;
+  background: #4e007f;
+  font-size: 0.65em;
+  z-index: 9999;
+}
+
+.nav {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  padding: 30px 10px 10px 10px;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  position: relative;
+  margin: 3.2em 0;
+}
+
+.nav a {
+  line-height: 3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.4em;
+  color: rgba(255, 255, 255, 0.35); /* Light gray */
+  display: block;
+  transition: all ease-out 300ms;
+}
+
+.nav a.active {
+  color: white;
+}
+
+.nav li:not(.active)::after {
+  opacity: 0.2;
+}
+
+.nav li:not(.active):hover a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.nav li::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background: black;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    to right,
+    #5e42a6,
+    #b74e91
+  ); /* Gradient from purple to pink */
+}
+
+/* Welcome Section */
+.hero-section {
+  background-color: black;
+  position: relative;
+}
+
+.overlay {
+  background-color: black;
+  width: 70%;
+  padding: 10px 50px 10px 40px;
+  z-index: 9999;
+  position: absolute;
+  opacity: 0.8;
+}
+
+.hero-image {
+  height: 100vh;
+  width: 100%;
+  margin: 0px 0px 0px 100px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  padding: 50px 20px 50px 20px;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 9998;
 }
