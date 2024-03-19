@@ -21,7 +21,7 @@ const Navbar = () => {
               <a href="#">Welcome to my Roadmap</a>
             </li>
             <li>
-              <a href="#">About Me</a>
+              <a href="#About">About Me</a>
             </li>
             <li>
               <a href="#">My Journey Begins</a>
