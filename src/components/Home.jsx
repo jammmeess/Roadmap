@@ -7,6 +7,7 @@ import Journey from "./Journey";
 import Accenture from "./Accenture";
 import Friends from "./Friends";
 import SecondHome from "./SecondHome";
+import MyTeam from "./MyTeam";
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
                 <Accenture />
                 <Friends />
                 <SecondHome />
+                <MyTeam />
             </main>
         </section>
     );
