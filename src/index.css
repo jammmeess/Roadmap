@@ -112,3 +112,28 @@ html {
   color: white;
   z-index: 9998;
 }
+
+/* About Section */
+
+.about-section {
+  height: 100vh;
+  width: 100vw;
+  margin: 15 0px 0px 0px;  
+  font-family: "Crete Round", serif;
+  line-height: 30px;
+}
+
+.profile {
+  align-items: center;
+  border-radius: 0px 90px 0px 90px;
+  border: solid 4px black;
+  width: 60%;
+  height: 45%;
+  display: flex;
+  margin: 120px 0px 0px 35%;
+
+}
+
+.intro-section {
+  border-left: solid 4px ;
+}
