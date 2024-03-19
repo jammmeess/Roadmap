@@ -7,7 +7,7 @@ const Journey = () => {
     <section className="journey-section" id="Journey">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12">
+          <div className="col-lg-12 mt-5">
             <h1>My Journey Begins</h1>
           </div>
           <div className="col-lg-5">
