@@ -4,10 +4,10 @@ import FriendsTwo from "../img/roadmap/friends6.JPG";
 
 const Friends = () => {
   return (
-    <section className="friends-section" id="Friends">
+    <section className="friends-section mb-5" id="Friends">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12">
+          <div className="col-lg-12 friends-title">
             <h3 className="display-6">
               "Having <span id="accenture">Friends </span>at work makes the day
               go faster and the workload feel{" "}
@@ -21,7 +21,7 @@ const Friends = () => {
           <div className="col-lg-6">
             <img src={FriendsOne} className="friendsOne" />
           </div>
-          <div className="col-lg-12 pe-5">
+          <div className="col-lg-12 pe-5 friends-title">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eos
               ipsum corporis. Quis, architecto! Maiores temporibus fugit quaerat
