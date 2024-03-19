@@ -2,6 +2,7 @@ import  React from "react";
 
 import Navbar from "./Navbar";
 import Welcome from "./Welcome";
+import About from "./About";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             </div>
             <main>
                 <Welcome/>
+                <About />
             </main>
         </section>
     );
