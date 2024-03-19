@@ -6,6 +6,7 @@ import About from "./About";
 import Journey from "./Journey";
 import Accenture from "./Accenture";
 import Friends from "./Friends";
+import SecondHome from "./SecondHome";
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
                 <Journey />
                 <Accenture />
                 <Friends />
+                <SecondHome />
             </main>
         </section>
     );
