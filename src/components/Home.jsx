@@ -9,6 +9,7 @@ import Friends from "./Friends";
 import SecondHome from "./SecondHome";
 import MyTeam from "./MyTeam";
 import Party from "./Party";
+import Continue from "./Continue"
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
                 <SecondHome />
                 <MyTeam />
                 <Party />
+                <Continue />
             </main>
         </section>
     );
