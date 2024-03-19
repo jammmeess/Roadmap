@@ -11,9 +11,9 @@ const About = () => {
               <img src={Profile} className="profile" />
             </div>
             <div className="col-lg-5 text-dark intro-section ms-3">
-              <p className="display-3"> Hey Everyone!</p>
+              <p className="display-3"> Hey <span id="accenture">Everyone</span>!</p>
               <p className="display-6">
-                My Name is <i><bold>Marian Rae Royandoyan,</bold></i>
+                My Name is <i><bold id="accenture">Marian Rae Royandoyan,</bold></i>
               </p>
               <p>
                 I've been crunching numbers as an accountant for six years now,
@@ -23,7 +23,7 @@ const About = () => {
                 good book or TV series. Oh, and I'm also a proud cat lover!
                 
               </p>
-              <p>Transitioning to Accenture was a bit of a shift from my previous
+              <p>Transitioning to <span id="accenture">Accenture</span> was a bit of a shift from my previous
                 role, but I'm really enjoying the journey. In the past six
                 months, I've learned a ton from my colleagues and gained
                 valuable experience that I'm excited to build on. I'm really looking
