@@ -13,7 +13,7 @@ const SecondHome = () => {
               <h3 className="display-4">
                 Accenture{" "}
                 <span className="text-light">
-                  is Almost Like my Second Home!
+                  is  my second home!
                 </span>
               </h3>
             </div>
