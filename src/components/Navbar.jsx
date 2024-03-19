@@ -1,15 +1,32 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const Navbar = () => {
-  useEffect(() => {
-    const links = document.querySelectorAll(".nav a");
+ 
+  const [activeLink, setActiveLink] = useState("");
 
-    links.forEach((link) => {
-      if (link.href === window.location.href) {
-        link.classList.add("active");
-        link.parentElement.classList.add("active");
-      }
-    });
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section[id]");
+      const scrollPosition = window.scrollY;
+
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        const sectionId = section.getAttribute("id");
+
+        if (
+          scrollPosition >= sectionTop - 50 &&
+          scrollPosition < sectionTop + sectionHeight - 50
+        ) {
+          setActiveLink(sectionId);
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
@@ -18,28 +35,65 @@ const Navbar = () => {
         <nav className="nav ps-2">
           <ul>
             <li>
-              <a href="#">Welcome to my Roadmap</a>
+              <a href="#Welcome" className={activeLink === "Welcome" ? "active" : ""}>
+                Welcome to my Roadmap
+              </a>
             </li>
             <li>
-              <a href="#About">About Me</a>
+              <a
+                href="#About"
+                className={activeLink === "About" ? "active" : ""}
+              >
+                About Me
+              </a>
             </li>
             <li>
-              <a href="#">My Journey Begins</a>
+              <a
+                href="#Journey"
+                className={activeLink === "Journey" ? "active" : ""}
+              >
+                My Journey Begins
+              </a>
             </li>
             <li>
-              <a href="#">Accenture Philippines</a>
+              <a
+                href="#Accenture"
+                className={activeLink === "Accenture" ? "active" : ""}
+              >
+                Accenture Philippines
+              </a>
             </li>
             <li>
-              <a href="#">My Second Home</a>
+              <a
+                href="#SecondHome"
+                className={activeLink === "SecondHome" ? "active" : ""}
+              >
+                My Second Home
+              </a>
             </li>
             <li>
-              <a href="#">Meet my Team</a>
+              <a
+                href="#MyTeam"
+                className={activeLink === "MyTeam" ? "active" : ""}
+              >
+                Meet my Team
+              </a>
             </li>
             <li>
-              <a href="#">Let's Get this Party Started</a>
+              <a
+                href="#Party"
+                className={activeLink === "Party" ? "active" : ""}
+              >
+                Let's Get this Party Started
+              </a>
             </li>
             <li>
-              <a href="#">My Journey Continues</a>
+              <a
+                href="#Continue"
+                className={activeLink === "Continue" ? "active" : ""}
+              >
+                My Journey Continues
+              </a>
             </li>
           </ul>
         </nav>
