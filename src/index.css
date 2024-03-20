@@ -96,8 +96,7 @@ html {
 .hero-image {
   height: 100vh;
   width: 100%;
-  margin: 0px 0px 0px 100px;
-  background-position: right;
+  margin: 0px 0px 0px 37px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -117,9 +116,9 @@ html {
 /* About Section */
 
 .about-section {
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
-  margin: 15 0px 0px 0px;  
+  margin: 15 0px 0px 0px;
   font-family: "Crete Round", serif;
   line-height: 30px;
 }
@@ -129,114 +128,111 @@ html {
   border-radius: 0px 90px 0px 90px;
   border: solid 4px black;
   width: 60%;
-  height: 45%;
+  height: 70%;
   display: flex;
-  margin: 120px 0px 0px 35%;
-
+  margin: 60px 0px 0px 35%;
 }
 
 .intro-section {
-  border-left: solid 4px ;
+  border-left: solid 4px;
 }
 
 /* Journey Section */
- .journey-section {
+.journey-section {
   background-color: rgb(15, 15, 15);
-  font-family: "Crete Round", serif; 
+  font-family: "Crete Round", serif;
   color: #aa54df;
-  height: 140vh;
+  height: 190vh;
   width: 100vw;
   margin: 0px 0px 0px 0px;
   padding: 50px 0px 0px 300px;
   border-radius: 500px 0px 500px 0px;
- }
+}
 
- .journeyOne {
+.journeyOne {
   height: 80%;
   width: 70%;
   margin: 50px 0px 50px 0px;
-  border: solid 4px #4e007f;;
+  border: solid 4px #4e007f;
   border-radius: 90px 0px 0px 0px;
- }
+}
 
- .journeyOne-caption {
+.journeyOne-caption {
   margin: 30px 0px 0px 0px;
- }
+}
 
-  .journeyTwo {
+.journeyTwo {
   height: 80%;
   width: 80%;
-  margin: 50px 0px 50px 0px;
-  border: solid 4px #4e007f;;
+  margin: 0px 0px 50px 0px;
+  border: solid 4px #4e007f;
   border-radius: 0px 0px 90px 0px;
- }
+}
 
- /* Accenture Section */
+/* Accenture Section */
 .accenture-section {
-  font-family: "Crete Round", serif; 
+  font-family: "Crete Round", serif;
   color: #000000;
-  height: 110vh;
+  height: 130vh;
   width: 100vw;
   margin: 0px 0px 0px 0px;
   padding: 50px 0px 0px 300px;
 }
 
 .accenture-photo {
-  height: 80%;
-  width: 100%;
-  margin: 20px 0px 0px -40px;
-  border: solid 4px #000000;;
+  height: 70%;
+  width: 80%;
+  margin: 20px 0px 0px 30px;
+  border: solid 4px #000000;
   border-radius: 50px 50px 50px 50px;
 }
 
 .accenture-caption {
-  margin: -30px 0px 0px -30px;
+  margin: -60px 0px 0px 0px;
 }
 
 #accenture {
-  color: #4e007f
+  color: #4e007f;
 }
 
 /* Friends Section */
 
 .friends-section {
-  font-family: "Crete Round", serif; 
+  font-family: "Crete Round", serif;
   color: #000000;
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
-  margin: 0px 0px 0px 0px;
+  margin: 70px 50px 50px 50px;
   padding: 50px 0px 0px 300px;
-  border-top: solid #4e007f 5px;
+  /* border-top: solid #4e007f 5px; */
 }
 
 .friendsOne {
-  height: 80%;
-  width: 100%;
+  height: 70%;
+  width: 90%;
   margin: 20px 0px 0px -40px;
   border: solid 4px #4e007f;
   border-radius: 25px 25px 25px 25px;
 }
 
-.friends-title{
-  margin: 0px 0px 0px -30px;
-  
+.friends-title {
+  margin: -40px 0px 0px -30px;
 }
 
 /* Second Home Section */
 
- .secondhome-section {
+.secondhome-section {
   background-color: rgb(15, 15, 15);
-  font-family: "Crete Round", serif; 
+  font-family: "Crete Round", serif;
   color: #aa54df;
-  height: 160vh;
+  height: 210vh;
   width: 100vw;
   margin: 0px 0px 0px 0px;
   padding: 50px 0px 0px 300px;
   border-radius: 500px 0px 500px 0px;
+}
 
- }
-
- .family-three {
+.family-three {
   height: 80%;
   width: 130%;
   margin: 50px 0px 0px -40px;
@@ -250,10 +246,10 @@ html {
   margin: 50px 0px 0px 60px;
   padding: 70px 0px 0px 20px;
   line-height: 30px;
-  border-left: solid  #4e007f;
+  border-left: solid #4e007f;
 }
 
- .family-One {
+.family-One {
   height: 70%;
   width: 100%;
   margin: 40px 0px 0px 50px;
@@ -267,11 +263,10 @@ html {
   margin: 0px 0px 0px -40px;
   padding: 90px 0px 0px 20px;
   line-height: 30px;
-  border-right: solid  #4e007f;
-
+  border-right: solid #4e007f;
 }
 
- .family-two {
+.family-two {
   height: 90%;
   width: 130%;
   margin: 20px 0px 0px -40px;
@@ -283,56 +278,54 @@ html {
   color: white;
   border-radius: 20px 20px 20px 20px;
   margin: 0px 0px 0px 60px;
-  padding:50px 0px 50px 20px;
+  padding: 50px 0px 50px 20px;
   line-height: 30px;
-  border-left: solid  #4e007f;
+  border-left: solid #4e007f;
 }
 
 /* My Team Section */
 
 .myteam-section {
-  font-family: "Crete Round", serif; 
+  font-family: "Crete Round", serif;
   background-color: #ffffff;
   color: #000000;
-  height: 110vh;
+  height: 150vh;
   width: 100vw;
   margin: 0px 0px 0px 0px;
   padding: 50px 0px 0px 300px;
-  
 }
 
 .myteam-photo {
   height: 90%;
   width: 80%;
   margin: 20px 0px 0px 50px;
-  border: solid 4px #000000;;
+  border: solid 4px #000000;
   border-radius: 50px 50px 50px 50px;
 }
 
 .my-team-section {
-  border-left: solid #4e007f  5px;
+  border-left: solid #4e007f 5px;
   /* border-radius: 20px 20px 20px 20px; */
   margin: 0px 0px 0px -20px;
-
 }
 
 /* Party Section */
 
 .party-section {
-  font-family: "Crete Round", serif; 
+  font-family: "Crete Round", serif;
   background-color: #ffffff;
   color: #000000;
-  height: 120vh;
+  height: 170vh;
   width: 100vw;
   margin: 0px 0px 0px 0px;
   padding: 50px 0px 0px 300px;
-  border-top: solid #4e007f  5px;
+  border-top: solid #4e007f 5px;
 }
 
 .party-one {
   height: 80%;
   width: 80%;
-  margin: 30px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
   border: solid 4px #4e007f;
   border-radius: 25px 25px 25px 25px;
 }
@@ -340,35 +333,33 @@ html {
 .party-two {
   height: 80%;
   width: 80%;
-  margin:10px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
   border: solid 4px #4e007f;
   border-radius: 25px 25px 25px 25px;
 }
 
 .partyone-caption {
-   padding: 50px 0px 0px 0px;
-   /* border-left: solid #4e007f 5px; */
+  padding: 50px 0px 0px 0px;
+  /* border-left: solid #4e007f 5px; */
 }
 
 .partytwo-caption {
-   padding: 40px 30px 0px 0px;
-   /* border-right: solid #4e007f 5px; */
-
+  padding: 40px 30px 0px 0px;
+  /* border-right: solid #4e007f 5px; */
 }
 
 /* Continue Section */
- .continue-section {
+.continue-section {
   background-color: rgb(15, 15, 15);
-  font-family: "Crete Round", serif; 
+  font-family: "Crete Round", serif;
   color: #ffffff;
   height: 150vh;
   width: 100vw;
   margin: 0px 0px 0px 0px;
   padding: 50px 0px 0px 300px;
   border-radius: 500px 0px 0px 0px;
+}
 
- }
-
- .continue-quote {
+.continue-quote {
   margin: 120px 0px 0px 0px;
- }
+}

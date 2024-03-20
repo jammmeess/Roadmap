@@ -7,13 +7,13 @@ const Journey = () => {
     <section className="journey-section" id="Journey">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 mt-5">
+          <div className="col-lg-12 ms-5 mt-5">
             <h1>My Journey Begins</h1>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 ms-5">
             <img src={JourneyOne} className="journeyOne" />
           </div>
-          <div className="col-lg-5 text-light journeyOne-caption">
+          <div className="col-lg-5 mt-5 pt-5 text-light journeyOne-caption">
             <h3>Lorem ipsum dolor sit amet.</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
@@ -27,7 +27,7 @@ const Journey = () => {
               possimus ut ipsam aut dolorum, nemo optio.
             </p>
           </div>
-          <div className="col-lg-5 text-light journeyOne-caption ">
+          <div className="col-lg-5 text-light ms-5 ps-5 journeyOne-caption ">
             <h3>Lorem ipsum dolor sit amet.</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
@@ -41,7 +41,7 @@ const Journey = () => {
               possimus ut ipsam aut dolorum, nemo optio.
             </p>
           </div>
-          <div className="col-lg-5 ps-5">
+          <div className="col-lg-5 ms-5 ps-5">
             <img src={JourneyTwo} className="journeyTwo" />
           </div>
         </div>

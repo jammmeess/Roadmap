@@ -4,7 +4,7 @@ import FriendsTwo from "../img/roadmap/friends6.JPG";
 
 const Friends = () => {
   return (
-    <section className="friends-section mb-5" id="Friends">
+    <section className="friends-section mt-5  mb-5" id="Friends">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 friends-title">
