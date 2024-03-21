@@ -8,12 +8,12 @@ const Party = () => {
     <section className="party-section" id="Party">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5 ps-5 ms-5">
+          <div className="col-lg-5 ms-5">
             <img src={PartyOne} className="party-one"></img>
           </div>
           <div className="col-lg-5 px-5 partyone-caption">
             <h3 className="display-6">
-              Let's get this <span id="accenture">Party</span> Started!
+              Let's get this <span id="accenture-dark">Party</span> Started!
             </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eos
@@ -24,7 +24,7 @@ const Party = () => {
           </div>
           <div className="col-lg-5 partytwo-caption px-5 mx-5">
             <h4 className="mb-3">
-              Meet my <span id="accenture">P.E.P.</span> Team
+              Meet my <span id="accenture-dark">P.E.P.</span> Team
             </h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eos
@@ -33,7 +33,7 @@ const Party = () => {
               minus corrupti totam itaque.
             </p>
           </div>
-          <div className="col-lg-5 me-5 pe-5">
+          <div className="col-lg-5">
             <img src={PartyTwo} className="party-two"></img>
           </div>
         </div>
