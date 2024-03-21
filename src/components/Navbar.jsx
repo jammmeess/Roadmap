@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 const Navbar = () => {
- 
   const [activeLink, setActiveLink] = useState("");
 
   useEffect(() => {
@@ -31,7 +30,7 @@ const Navbar = () => {
 
   return (
     <section>
-      <aside className="sidebar">
+      <aside className="sidebar me-5">
         <nav className="nav ps-2">
           <ul>
             <li>
