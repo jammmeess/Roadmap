@@ -8,7 +8,7 @@ const SecondHome = () => {
     <section className="secondhome-section" id="SecondHome">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 mt-5 ">
+          <div className="col-lg-12 mx-5 mt-5 ">
             <h3 className="display-4">
               Accenture <span className="text-light">is my second home!</span>
             </h3>
@@ -36,7 +36,7 @@ const SecondHome = () => {
           <div className="col-lg-4 ms-5 me-5">
             <img src={FamilyTwo} className="family-two" />
           </div>
-          <div className="col-lg-6  familytwo-caption pt-5 px-5">
+          <div className="col-lg-6 pt-5  familytwo-caption pt-5 px-5">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio dolores libero dolor repellendus blanditiis! A odit sed
