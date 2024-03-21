@@ -6,10 +6,10 @@ const MyTeam = () => {
     <section className="myteam-section mb-5" id="MyTeam">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12">
+          <div className="col-lg-12 ">
             <img src={MyTeamPhoto} className="myteam-photo" />
           </div>
-          <div className="col-lg-12 px-5 mx-1 my-team-section">
+          <div className="col-lg-12  px-5 mx-1 my-team-section">
             <h3 className="display-6">
               The <span id="accenture">Finance Business Management</span> Team
             </h3>
